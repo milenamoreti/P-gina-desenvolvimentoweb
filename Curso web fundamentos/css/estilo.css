@@ -1,0 +1,94 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: grey;
+    margin: 0%;
+}
+.hero{ 
+    background-image: url(../bg-3.jpg);
+    height: 500px;
+    background-position: right center;
+    background-size: cover;
+}
+.hero-content{
+    text-align: center;
+    color: honeydew;
+}
+.hero li a{
+    background: rgba(0,0,0,0.3);
+    display: block;
+    padding: 10px;
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 12px;
+    letter-spacing: 2px;
+    
+}
+.hero li{
+    display: inline-block;
+    list-style:none;
+    padding:10px;
+    margin-left: 10px;
+    border: 1px solid white
+}
+.hero li a:hover{
+    background: rgba(0,0,0,0.6);
+}
+.hero-content h1{ 
+    text-transform: uppercase;
+    font-size: 46px ;
+    text-shadow: 3px 3px 3px black;
+}
+.hero-content p{
+    background-color: rgba( 0, 0, 0, 0.8);  
+    display: inline-block;
+    padding: 10px ;
+    border-bottom: 2px solid white;
+}
+.hero nav ul{
+    text-align: right;
+    margin: 20px 50px 0 0;
+
+}
+hero nav li{
+    display: inline-block;
+}
+main{
+    width: 80%;
+    margin: auto;
+}
+.content-section{
+    background-color: blanchedalmond;
+    padding: 15px;
+    margin-top: 15px;
+    overflow: auto;
+}
+.card{
+    width: 32%;
+    float: left;
+    border: 2px solid white;
+    box-sizing: border-box;
+}
+.card-1, .card-2{
+    margin-right: 2% ;
+}
+.card img{
+    width:  100%;
+    display: block;
+}
+.card p{
+    background-color: black;
+    color: white;
+    padding: 15px;
+}
+.content-header{ 
+    border-bottom: solid 2pc #ccc;
+    padding: 10px;
+}
+
+.content-header h2{
+    margin:0;
+}
+.rodape{
+
+}
